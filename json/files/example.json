@@ -1,0 +1,32 @@
+{
+  "user0" : {
+    "firstName" : "John",
+    "middleName" : ,
+    "account" : {
+      "accountNumber" : 123456,
+      "isAccountActive" : false,
+      "last5Transactions" : [
+        {"amount" : "8.67"},
+        {"amount" : "5.00"},
+        {"amount" : "3.09"}
+      ],
+      "pendingTransactionAmounts" : [12.67, 89.54, 37.29]
+    }
+  },
+  "user1" : {
+    "firstName" : "Bob",
+    "middleName" : ,
+    "account" : {
+      "accountNumber" : 654321,
+      "isAccountActive" : true,
+      "last5Transactions" : [
+        {"amount" : "9.09"}
+        {"amount" : "7.77"},
+        {"amount" : "0.05"},
+        {"amount" : "9.03"}
+        {"amount" : "999.99"}
+      ],
+      "pendingTransactionAmounts" : [12.67, 89.54, 37.29]
+    }
+  }
+}
