@@ -6,7 +6,7 @@ Feature: Insert detailed description here
   #Comments should be added at the top of the scenario
   Scenario Outline: GT_createAccount_1: Insert Scenario description here: REQ-987
      When I select "<user_type>" from the "add users" dropdown on the "account" page
-     When I click on "create account" on the "home" Page
+      And I click on "create account" on the "home" Page
       And I fill in the following fields on the "create account" page:
       | field     | entered_value |
       | full name | John E Doe    |
